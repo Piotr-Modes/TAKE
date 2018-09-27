@@ -1,0 +1,32 @@
+.u-center-text{text-align: center !important;}
+
+.u-margin-bottom-big{margin-bottom: 8rem !important;}
+.u-margin-bottom-med{margin-bottom: 4rem !important;}
+.u-margin-bottom-small{
+    margin-bottom: 1.3rem !important;
+    @media (max-width:800px){margin-bottom: .9rem !important;}
+    @media (max-width:700px){margin-bottom: 2.3rem !important;}
+}
+
+.u-margin-top-big{margin-top: 8rem !important;}
+.u-margin-top-huge{
+    margin-top: 13rem !important;
+    @media (max-height:800px){margin-top:6rem !important;}
+    @media (max-width:1024px)and(max-height:1366px){margin-top:6rem !important;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

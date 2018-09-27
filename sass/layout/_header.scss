@@ -1,0 +1,116 @@
+.header{
+    position: relative;
+    height: 95vh;
+    background-image: url(../img/banner.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    
+    @media (max-width:900px){height: 100vh}
+    
+    
+    &__logo-box{
+        /*position: absolute;
+        top: 4rem;
+        left: 4rem;*/
+    } 
+
+    &__logo{
+        margin-top: 4rem;
+        height: 3.4rem;
+    }
+    
+    &__text-box{
+        position: absolute;
+        top: 55%;
+        width: 26%;
+        /*left: 50%;*/
+        transform: translateY(-50%);
+        /*text-align: center;*/
+        @media (max-width:1200px){width:50%;}
+        @media (max-width:613px){width:90%; background: rgba(black, .2);padding: .5rem 1rem .5rem 1rem;margin-left: -1rem;}
+        
+        &-2{
+            top:60%;
+            @media (max-width:1200px){background: rgba(black, .5);padding: .5rem 1rem .5rem 1rem;margin-left: -1rem;}
+        }
+
+    }
+
+        
+    &__iphone-box{
+        position: absolute;
+        right: 8rem;
+        bottom:-14rem;
+        
+        @media (max-width:1300px){right: 0rem;}
+      /*  @media (max-width:1200px){right: -5rem;}*/
+        @media (min-width:1800px){right: 13rem;}
+        
+        &__img{
+            /*width: 85%;*/
+            height: 80vh;
+            /*width:37vw;*/
+            @media (max-width:900px){display: none;}
+            @media (max-height:800px){display: none;}
+            @media (orientation: portrait){display: none;}
+            @media (max-aspect-ratio: 6/5){height: 70vh;}
+        }
+    }
+}
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

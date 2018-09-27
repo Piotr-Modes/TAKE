@@ -1,0 +1,50 @@
+.section-start{
+    padding: 7rem 0;
+    @media (max-width:1000px){padding: 5rem 0}
+    
+    &__optional{
+        @media (max-width:1000px){display: none;}
+    }
+}
+
+
+.section-details{
+    padding: 9rem 0 12rem 0;
+    @media (max-width:1000px){padding: 7rem 0 10rem 0;}
+    @media (max-width:666px){padding: 5rem 0 7rem 0;}
+}
+
+.section-pixel{
+    position: relative;
+    min-height: 600px;
+    background-image: url(../img/banner-2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+}
+
+.section-onboard{
+    background: $color-3;
+    padding: 7rem 0 8rem 0;
+    
+}
+
+.section-buy{
+    background: $color-grey-light1;
+    padding: 13rem 0;
+    @media (max-width:1000px){padding: 5rem 0 10rem 0}
+    @media (max-width:400px){padding: 3rem 0 7rem 0}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
